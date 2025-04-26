@@ -11,19 +11,18 @@ Sends a SOAP request to a VMware ESX/ESXi host and extracts version and build in
 
 1. Clone this repository:
    ```bash
-   git clone https://example.com/vmware_fingerprint.git
-   cd vmware_fingerprint
+   git clone https://github.com/ace00k/ESXi-Fingerprint.git
+   cd ESXi-Fingerprint
    ```
 2. (Optional) Create and activate a virtual environment:
    ```bash
-   python3 -m venv venv
-   source venv/bin/activate
+   python3 -m venv .venv
+   source .venv/bin/activate
    ```
 3. Install dependencies:
    ```bash
    pip install requests
    ```
-
 ## Usage
 
 ```bash
